@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Homecontroller {
     @GetMapping("/")
     public String Home(Model model) {
-        model.addAttribute("test", "asdfafew");
+        model.addAttribute("test", "bbbbbbbb");
         return "home";
 
 
