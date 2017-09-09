@@ -25,6 +25,9 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')  // JPA 를 쓰기위한 의존성???
 	runtime("org.springframework.boot:spring-boot-devtools")     //자동 빌드 웹
+	compileOnly('org.projectlombok:lombok')    //롬북
+	runtime('com.h2database:h2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
