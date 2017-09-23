@@ -2209,7 +2209,7 @@ var modifiers = {
  * Default options provided to Popper.js constructor.<br />
  * These can be overriden using the `options` argument of Popper.js.<br />
  * To override an option, simply pass as 3rd argument an object with the same
- * structure of this object, example:
+ * structure of this object, nekisse:
  * ```
  * new Popper(ref, pop, {
  *   modifiers: {
