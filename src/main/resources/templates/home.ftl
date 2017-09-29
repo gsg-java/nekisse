@@ -166,6 +166,9 @@
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Around the Web</h3>
+                    <#--
+                        TODO: 여기를 수정하자
+                    -->
                     <ul class="list-inline">
                         <li class="list-inline-item">
                             <a class="btn-social btn-outline" href="#">
