@@ -15,7 +15,7 @@ import java.util.List;
  * Created by Nekisse_lee on 2017. 9. 2..
  */
 @Controller
-public class Homecontroller {
+public class HomeController {
 
 
     @Autowired
