@@ -38,9 +38,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                </li>
+                <#--<li class="nav-item">-->
+                    <#--<a class="nav-link js-scroll-trigger" href="#about">About</a>-->
+                <#--</li>-->
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                 </li>
@@ -52,7 +52,7 @@
 <!-- Header -->
 <header class="masthead">
     <div class="container">
-        <img class="img-fluid" src="img/profile.png" alt="">
+        <img class="img-fluid" src="img/MAIN.j" alt="">
         <div class="intro-text">
             <span class="name">Start Bootstrap</span>
             <hr class="star-light">
@@ -83,27 +83,27 @@
     </div>
 </section>
 
-<!-- About Section -->
-<section class="success" id="about">
-    <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-light">
-        <div class="row">
-            <div class="col-lg-4 ml-auto">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-            </div>
-            <div class="col-lg-4 mr-auto">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-            </div>
-            <div class="col-lg-8 mx-auto text-center">
-                <a href="#" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i>
-                    Download Theme
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+<#--<!-- About Section &ndash;&gt;-->
+<#--<section class="success" id="about">-->
+    <#--<div class="container">-->
+        <#--<h2 class="text-center">About</h2>-->
+        <#--<hr class="star-light">-->
+        <#--<div class="row">-->
+            <#--<div class="col-lg-4 ml-auto">-->
+                <#--<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>-->
+            <#--</div>-->
+            <#--<div class="col-lg-4 mr-auto">-->
+                <#--<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>-->
+            <#--</div>-->
+            <#--<div class="col-lg-8 mx-auto text-center">-->
+                <#--<a href="#" class="btn btn-lg btn-outline">-->
+                    <#--<i class="fa fa-download"></i>-->
+                    <#--Download Theme-->
+                <#--</a>-->
+            <#--</div>-->
+        <#--</div>-->
+    <#--</div>-->
+<#--</section>-->
 
 <!-- Contact Section -->
 <section id="contact">
@@ -169,32 +169,35 @@
                     <#--
                         TODO: 여기를 수정하자
                     -->
+
                     <ul class="list-inline">
+                    <#list links as link>
                         <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="#">
-                                <i class="fa fa-fw fa-facebook"></i>
+                            <a class="btn-social btn-outline" href="${link.link}">
+                                <i class="fa fa-fw fa-${link.image}"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="#">
-                                <i class="fa fa-fw fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="#">
-                                <i class="fa fa-fw fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="#">
-                                <i class="fa fa-fw fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="#">
-                                <i class="fa fa-fw fa-dribbble"></i>
-                            </a>
-                        </li>
+                        </#list>
+                        <#--<li class="list-inline-item">-->
+                            <#--<a class="btn-social btn-outline" href="#">-->
+                                <#--<i class="fa fa-fw fa-google-plus"></i>-->
+                            <#--</a>-->
+                        <#--</li>-->
+                        <#--<li class="list-inline-item">-->
+                            <#--<a class="btn-social btn-outline" href="#">-->
+                                <#--<i class="fa fa-fw fa-twitter"></i>-->
+                            <#--</a>-->
+                        <#--</li>-->
+                        <#--<li class="list-inline-item">-->
+                            <#--<a class="btn-social btn-outline" href="#">-->
+                                <#--<i class="fa fa-fw fa-linkedin"></i>-->
+                            <#--</a>-->
+                        <#--</li>-->
+                        <#--<li class="list-inline-item">-->
+                            <#--<a class="btn-social btn-outline" href="#">-->
+                                <#--<i class="fa fa-fw fa-dribbble"></i>-->
+                            <#--</a>-->
+                        <#--</li>-->
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">

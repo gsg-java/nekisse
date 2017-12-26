@@ -3,6 +3,7 @@ package com.nekisse.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Created by Nekisse_lee on 2017. 9. 9..
@@ -27,6 +28,7 @@ public class Portfolio {
     private String title;
 
     private String content;
+
 
     public String getTitle() {
         return title;
