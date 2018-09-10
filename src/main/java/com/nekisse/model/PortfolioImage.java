@@ -22,6 +22,7 @@ public class PortfolioImage {
 
     public String getImageName() {
         return imageName;
+
     }
 
     public void setImageName(String imageName) {

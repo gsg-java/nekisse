@@ -41,9 +41,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">About me</a>
                 </li>
-                <li class="nav-item">
+                <#--<li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
@@ -56,7 +56,7 @@
         <div class="intro-text">
             <span class="name">Nekisse World!</span>
             <hr class="star-light">
-            <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+            <span class="skills">Web Developer (JAVA, Spring)</span>
         </div>
     </div>
 </header>
@@ -91,7 +91,7 @@
         <div class="row">
             <div class="col-lg-4 ml-auto">
                 <p>커피쪽 일을 했었고</p>
-                <p>지금은 코딩 공부를 하고있습니다</p>
+                <p>java, spring  공부를 하고있습니다</p>
             </div>
             <div class="col-lg-4 mr-auto">
                 <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
@@ -107,14 +107,15 @@
 </section>
 
 <!-- Contact Section -->
+<#--
 <section id="contact">
     <div class="container">
         <h2 class="text-center">Contact Me</h2>
         <hr class="star-primary">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. &ndash;&gt;
+                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. &ndash;&gt;
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
@@ -154,6 +155,7 @@
         </div>
     </div>
 </section>
+-->
 
 <!-- Footer -->
 <footer class="text-center">
@@ -178,7 +180,7 @@
                                 <i class="fa fa-fw fa-${link.image}"></i>
                             </a>
                         </li>
-                        </#list>
+                    </#list>
                         <#--<li class="list-inline-item">-->
                             <#--<a class="btn-social btn-outline" href="#">-->
                                 <#--<i class="fa fa-fw fa-google-plus"></i>-->
