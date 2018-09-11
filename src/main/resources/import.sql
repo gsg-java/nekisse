@@ -4,7 +4,7 @@ INSERT INTO PORTFOLIO (IDX, TITLE, CONTENT, IMAGE) VALUES (3,'2016 WCCK KCTC', '
 INSERT INTO PORTFOLIO (IDX, TITLE, CONTENT, IMAGE) VALUES (4,'KCTC 연습', 'KCTC  대회룰에 맞춰 </br> 연습하려고 준비 해 놓은 사진입니다. </br>  8세트 각 세트당 세잔의 커피 중 </br>  맛이 다른 한잔의 커피를 골라내야 합니다. ', 'img/portfolio/kctc.png');
 INSERT INTO PORTFOLIO (IDX, TITLE, CONTENT, IMAGE) VALUES (5,'2017 </br> Hello World!', 'JAVA공부 시작! </br> 많은 사람들이  커피에 대해 알릴 수 있는 커뮤니티</br> 혹은 애플리케이션을 만들고 싶습니다. ', 'img/portfolio/helloword.png');
 
-INSERT INTO PORTFOLIO (IDX, TITLE, CONTENT, IMAGE) VALUES (6,'2017 </br> Hello World!', 'gsg-java-study! </br> 자바를 같이 공부하려고 스터디모임을 만들었습니다.</br> ', '2017-08-12gsg-java-study.png');
+INSERT INTO PORTFOLIO (IDX, TITLE, CONTENT, IMAGE) VALUES (6,'2017 </br> Hello World!', 'gsg-java-study! </br> 자바를 같이 공부하려고 스터디모임을 만들었습니다.</br> ', 'img/portfolio/2017-08-12gsg-java-study.png');
 
 
 INSERT INTO LINK (NUM, LINK, IMAGE) VALUES (1,'https://github.com/nekisse-lee','github');
