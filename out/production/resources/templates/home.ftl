@@ -52,7 +52,7 @@
 <!-- Header -->
 <header class="masthead">
     <div class="container">
-        <img class="img-fluid" style="max-height: 200px;" src="img/MAIN.jpg" alt="">
+        <img class="img-fluid" style="max-height: 200px;" src="/img/portfolio/main.png" alt="">
         <div class="intro-text">
             <span class="name">Nekisse World!</span>
             <hr class="star-light">
