@@ -94,6 +94,7 @@
             </div>
             <div class="col-lg-4 mr-auto">
                 <p>2017년 3월부터 자바공부를 시작으로 꾸준히 공부하고 있습니다.</br>
+                <p>nekisse1224@gmail.com 연락 기다리겠습니다.</br>
 
                 </p>
             </div>
