@@ -108,14 +108,14 @@
 </section>
 
 <!-- Contact Section -->
-<section id="contact">
+<#--<section id="contact">
     <div class="container">
         <h2 class="text-center">Contact Me</h2>
         <hr class="star-primary">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. &ndash;&gt;
-                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. &ndash;&gt;
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
@@ -154,7 +154,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Footer -->
 <footer class="text-center">
