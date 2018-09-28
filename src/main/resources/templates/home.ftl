@@ -93,11 +93,11 @@
                 <p>수년간 커피관련 일을 했었습니다.</br> 커피를 너무 좋아해서 커피를 알리고 소통하는 것에 보람을 느꼈습니다. 조금 더 많은 사람들에게 커피를 알리고 소통하고 싶어서 시작하게 된 것이 '개발'입니다. </br>언젠가 처음부터 끝까지 혼자 만들고 운영할수 있는 커피 커뮤니티를 만들고 운영하고 싶습니다.</p>
             </div>
             <div class="col-lg-4 mr-auto">
-                <b>
+
                 <p>2017년 3월부터 자바공부를 시작으로 꾸준히 공부하고 있습니다.</br>
-                nekisse1224@gmail.com 연락 기다리겠습니다.</br>
+                    <b>nekisse1224@gmail.com</b> 연락 기다리겠습니다.</br>
                 </p>
-                </b>
+
             </div>
             <#--<div class="col-lg-8 mx-auto text-center">
                 <a href="#" class="btn btn-lg btn-outline">
