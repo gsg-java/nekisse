@@ -1,10 +1,15 @@
 package com.nekisse.model;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
+@Getter
+@Setter
 public class PortfolioImage {
 
     @Id
@@ -12,20 +17,5 @@ public class PortfolioImage {
 
     private String imageName;
 
-    public Long getNum() {
-        return Num;
-    }
 
-    public void setNum(Long num) {
-        Num = num;
-    }
-
-    public String getImageName() {
-        return imageName;
-
-    }
-
-    public void setImageName(String imageName) {
-        this.imageName = imageName;
-    }
 }
