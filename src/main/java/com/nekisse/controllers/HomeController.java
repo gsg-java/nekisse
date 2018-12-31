@@ -29,7 +29,7 @@ public class HomeController {
 
     @GetMapping("")
     public String Home(Model model) {
-        List<Portfolio> list = new ArrayList<>();
+//        List<Portfolio> list = new ArrayList<>();
         model.addAttribute("portfolios", portfolioService.findAll());
         model.addAttribute("links", linkRepository.findAll());
         //TODO: 여기에 깃헙 이메일 정보를 넘기자 , homeftl에 있는 중복 제거하기

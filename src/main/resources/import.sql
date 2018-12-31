@@ -14,5 +14,6 @@ INSERT INTO PORTFOLIO (IDX, TITLE, CONTENT, IMAGE) VALUES (1,'2015, 2016 WCCK KC
 
 
 INSERT INTO LINK (NUM, LINK, IMAGE) VALUES (1,'https://github.com/nekisse-lee','github');
+INSERT INTO LINK (NUM, LINK, IMAGE) VALUES (2,'https://nekisse-blog.herokuapp.com/','coffee');
 -- INSERT INTO LINK (NUM, LINK, IMAGE) VALUES (2,'https://facebook.com','facebook');
 
