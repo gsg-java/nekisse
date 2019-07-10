@@ -1,17 +1,12 @@
 package com.nekisse.controllers;
 
-import com.nekisse.model.Portfolio;
 import com.nekisse.repository.LinkRepository;
-import com.nekisse.repository.PortfolioRepository;
 import com.nekisse.service.PortfolioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Nekisse_lee on 2017. 9. 2..
@@ -24,18 +19,43 @@ public class HomeController {
     @Autowired
     private PortfolioService portfolioService;
 
+
     @Autowired
     private LinkRepository linkRepository;
 
-    @GetMapping("")
-    public String Home(Model model) {
-//        List<Portfolio> list = new ArrayList<>();
-        model.addAttribute("portfolios", portfolioService.findAll());
-        model.addAttribute("links", linkRepository.findAll());
-        //TODO: 여기에 깃헙 이메일 정보를 넘기자 , homeftl에 있는 중복 제거하기
-        return "home";
-    }
 
+//    @GetMapping("")
+//    public String Home(Model model) {
+////        List<Portfolio> list = new ArrayList<>();
+//        model.addAttribute("contentsTitles", portfolioService.contentsTitlesFindAll());
+//        model.addAttribute("about", portfolioService.getAbout().get(0));
+//
+//        model.addAttribute("portfolios", portfolioService.findAll());
+////        model.addAttribute("links", linkRepository.findAll());
+//        //TODO: 여기에 깃헙 이메일 정보를 넘기자 , homeftl에 있는 중복 제거하기
+//        return "index";
+//    }
+
+    @GetMapping("")
+    public String homeFtl(Model model) {
+
+        model.addAttribute("contentsTitles", portfolioService.contentsTitlesFindAll());
+
+        //내 정보, 메일, 번호등
+        model.addAttribute("about", portfolioService.getAbout().get(0));
+
+        model.addAttribute("portfolios", portfolioService.findAll());
+//        model.addAttribute("links", linkRepository.findAll());
+
+        model.addAttribute("activities", portfolioService.getActivities());
+
+        model.addAttribute("educations", portfolioService.getEducations());
+
+        model.addAttribute("introduce", portfolioService.getIntros());
+
+        return "rhome";
+
+    }
 
 
 }
